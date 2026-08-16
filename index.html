@@ -24,6 +24,12 @@
         background-color: blue;
         color:white;
     }
+    .cadre{
+        background-color: #FFE;
+        border: ridge #CC7 3px;
+        margin:5px 20px;
+        padding: 5px;
+    }
     </style>
 </head>
 <body>
@@ -31,6 +37,29 @@
 <center><h1>Statistiques 2026</h1></center>
 
 <h2>Mardi 18 : loi normale</h2>
+
+<h3>L'essentiel</h3>
+<section class="cadre">
+Si Z∼𝒩(0,1), on a :
+<ul>
+<li>P(a ≤ Z ≤ b) = ϕ(b) - ϕ(a)</li>
+<li>P(Z ≤ x) = ϕ(x)</li>
+<li>P(Z ≥ x) = 1 - ϕ(x)</li>
+</ul>
+où ϕ(x) désigne la valeur lue dans la table de la loi normale pour l'argument x.
+</section>
+<section class="cadre">
+Si X∼𝒩(μ,σ), on pose Z = (X-μ) / σ, et on traduit les calculs faisant intervenir X
+en calculs faisant intervenir Z.
+</section>
+<section class="cadre">
+Lors de la lecture dans la table de la loi normale, on utilise la formule
+ϕ(-x) = 1 - ϕ(x) pour trouver les valeurs de ϕ correspondant à des arguments négatifs : par exemple, ϕ(-3) se calcule en faisant 1 - ϕ(3).
+</section>
+
+
+
+
 <h3>Liens</h3>
 
 <a href="https://www.youtube.com/watch?v=zbwqRgMxJoo">Cette vidéo</a> (~6 minutes) explique
@@ -40,7 +69,7 @@ comment lire la table de la loi normale centrée réduite. Vous pouvez vous limi
 Attention, π correspond dans notre cours à ϕ ! Il est fortement conseillé de mettre la vidéo en pause
 à chaque exemple pour s'assurer qu'on arrive à faire les calculs.
 <h3>Les devoir pour demain</h3>
-<a href="#">Feuille d'exercices</a> + QCM sur Theia
+<a href="res/exos_1.pdf">Feuille d'exercices</a> + QCM sur Theia
 
 
 
