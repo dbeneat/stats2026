@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,6 +39,124 @@
 
 <center><h1>Statistiques 2026</h1></center>
 
+<!--
+<h2>Vendredi 21 : comparaison d'une moyenne à une valeur de référence (grands échantillons)</h2>
+<h3>L'essentiel</h3>
+-->
+
+<!--
+<h2>Jeudi 20 : échantillonnage et inférence</h2>
+<h3>L'essentiel</h3>
+<section class="cadre">
+Connaître la différence entre statistiques inférentielles et statistiques descriptives.
+</section>
+<section class="cadre">
+Savoir calculer l'intervalle de confiance de μ. Connaître les conditions de validité.
+</section>
+<section class="cadre">
+Même chose pour l'intervalle de confiance de π. Attention : en plus des conditions de validité "ordinaires",
+il y a des conditions de validité <i>a posteriori</i> !
+</section>
+
+<h3>Les devoirs pour demain</h3>
+<a href="res/exos_3.pdf">Feuille d'exercices</a> + QCM sur Theia
+<br><br>
+(<a href="res/invnorm.pdf">Utilisez cette table</a> pour déterminer les valeurs z lors des calculs d'intervalles de confiance.)
+-->
+
+
+
+<h2>Mercredi 19 : introduction à l'échantillonnage</h2>
+<h3>L'essentiel</h3>
+<section class="cadre">
+Soit X une variable aléatoire d'espérance μ et d'écart-type σ.
+<br>    
+"Estimateur de la moyenne" (appelé aussi "moyenne empirique"):
+<br>
+<math>
+    <mi>M</mi>
+    <mo>=</mo>
+    <mfrac>
+        <mrow>
+            <msub><mi>X</mi><mn>1</mn></msub>
+            <mo>+</mo>
+            <mo>…</mo>
+            <mo>+</mo>
+            <msub><mi>X</mi><mi>n</mi></msub>
+        </mrow>
+        <mi>n</mi>
+    </mfrac>
+</math>
+<br>
+L'espérance de M est μ (la même que la variable sous-jacente X).
+L'écart-type de M est <math>
+    <mfrac>
+        <mi>σ</mi>
+        <msqrt><mi>n</mi></msqrt>
+    </mfrac>.
+</math>
+<br>
+Dès que la variable sous-jacente X suit une loi normale, ou dès que n≥30,
+M suit une loi normale.
+</section>
+<section class="cadre">
+Savoir construire l'intervalle de fluctuation de M pour un niveau de confiance donné.
+</section>
+<section class="cadre">
+Soit X une variable aléatoire de Bernoulli de paramètre π.
+<br>    
+"Estimateur de la proportion":
+<br>
+<math>
+    <mi>F</mi>
+    <mo>=</mo>
+    <mfrac>
+        <mrow>
+            <msub><mi>X</mi><mn>1</mn></msub>
+            <mo>+</mo>
+            <mo>…</mo>
+            <mo>+</mo>
+            <msub><mi>X</mi><mi>n</mi></msub>
+        </mrow>
+        <mi>n</mi>
+    </mfrac>
+</math>
+<br>
+L'espérance de F est π.
+L'écart-type de F est <math>
+    <msqrt>
+        <mfrac>
+            <mrow>
+                <mi>π</mi>
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>−</mo>
+                <mi>π</mi>
+                <mo>)</mo>
+            </mrow>
+            <mi>n</mi>
+        </mfrac>
+    </msqrt>.
+</math>
+<br>
+Dès que n≥30, F suit une loi normale.
+</section>
+<section class="cadre">
+Savoir construire l'intervalle de fluctuation de F pour un niveau de confiance donné.
+</section>
+
+
+
+<h3>Les devoirs pour demain</h3>
+<a href="res/exos_2.pdf">Feuille d'exercices</a> + QCM sur Theia
+<br><br>
+(<a href="res/invnorm.pdf">Utilisez cette table</a> pour déterminer les valeurs z lors des calculs d'intervalles de fluctuation.)
+
+
+
+
+
+
 <h2>Mardi 18 : loi normale</h2>
 
 <h3>L'essentiel</h3>
@@ -76,6 +194,7 @@ Attention, π correspond dans notre cours à ϕ ! Il est fortement conseillé de
 (<a href="res/norm.pdf">Utilisez cette table</a> de la fonction de répartition de la loi normale pour faire les exercices.)
 
 
-    
+
+
 </body>
 </html>
